@@ -1,0 +1,6 @@
+@WellBeing.Services.UserHealthAPI_HostAddress = http://localhost:5255
+
+GET {{WellBeing.Services.UserHealthAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

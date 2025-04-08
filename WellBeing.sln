@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{43A7223B-3352-423C-882C-E503CE3E1607}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{375D0D23-9784-435D-956C-9DEC1F2AC239}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{A3CAA2F7-7814-47B7-B080-30E207707437}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{379D1733-9B91-4AAA-9771-61EE361746F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WellBeing.Services.UserHealthAPI", "WellBeing.Services.UserHealthAPI\WellBeing.Services.UserHealthAPI.csproj", "{542E1020-9E6E-4EED-AD3E-3F0308689C3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{542E1020-9E6E-4EED-AD3E-3F0308689C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542E1020-9E6E-4EED-AD3E-3F0308689C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542E1020-9E6E-4EED-AD3E-3F0308689C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542E1020-9E6E-4EED-AD3E-3F0308689C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{542E1020-9E6E-4EED-AD3E-3F0308689C3A} = {379D1733-9B91-4AAA-9771-61EE361746F1}
+	EndGlobalSection
+EndGlobal
